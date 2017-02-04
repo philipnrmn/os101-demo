@@ -19,7 +19,7 @@
   },
   "env": {
     "HAPROXY_GROUP": "external",
-    "HAPROXY_0_VHOST": "alice.dcos101.mesosphere.com"
+    "HAPROXY_0_VHOST": "alice.os101.mesosphere.com"
   },
   "healthChecks": [
     {
