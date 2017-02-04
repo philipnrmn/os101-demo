@@ -17,9 +17,10 @@
       ]
     }
   },
-  "env": {
-    "HAPROXY_GROUP": "external",
-    "HAPROXY_0_VHOST": "alice.os101.mesosphere.com"
+  "labels": {
+    "DCOS_SERVICE_SCHEME": "http",
+    "DCOS_SERVICE_PORT_INDEX": "0",
+    "DCOS_SERVICE_NAME": "appa"
   },
   "healthChecks": [
     {
